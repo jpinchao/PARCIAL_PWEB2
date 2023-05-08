@@ -18,13 +18,13 @@
             <div class="card-action">
                 <div class="row center">
                     <div class="col s12">
-                        <form id="formulario">
-                        <input type="text" name="empleado" placeholder="Nombre del Empleado" id="empleado">
-                        <input type="text" name="cliente" placeholder="Nombre del Cliente" id="cliente">
-                        <input type="text" name="producto" placeholder="Nombre del Producto" id="producto">
+                        <form id="formulario" method="post">
+                        <input type="text" name="nombre_vendedor" placeholder="Nombre del Empleado" id="nombre_vendedor">
+                        <input type="text" name="nombre_cliente" placeholder="Nombre del Cliente" id="nombre_cliente">
+                        <input type="text" name="nombre_product" placeholder="Nombre del Producto" id="nombre_producto">
                         <input type="number" name="precio" placeholder="Precio del Producto" id="precio">
-                        <input type="date" name="fecha" id="fecha" placeholder="Fecha de la Compra">
-                        <button type="submit" class="waves-effect waves-light btn-large">Guardar</button>
+                        <input type="date" name="fecha_compra" id="fecha_compra" placeholder="Fecha de la Compra">
+                        <button type="submit" class="waves-effect waves-light btn-large" onclick="guardar()">Guardar</button>
                         </form>
                     </div>
                 </div>
